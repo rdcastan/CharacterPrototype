@@ -3,11 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | CharacterPrototype</title>
+    <title>Character Prototype</title>
+	<meta name="description" content="A prototype built with Unity WebGL with a simple 3D top down character.">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
+    <header>
+        <h2>Character Prototype</h2>
+        <p>A prototype showcasing a simple 3D top down character.</p>
+		<h3>Controls</h3>
+        <p><b>Move around:</b> Left Joystick with Gamepad;</p>
+		<p><b>Dash:</b> "A"(xbox) or "X" (Playstation) with Gamepad.</p>
+		<p><b>Attack:</b> "X"(xbox) or "Square" (Playstation) with Gamepad. You can chain attacks for a max combo of 3 hits. </p>
+    </header>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=540 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
@@ -20,7 +29,7 @@
       <div id="unity-footer">
         <div id="unity-logo-title-footer"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">CharacterPrototype</div>
+        <div id="unity-build-title">Fullscreen</div>
       </div>
     </div>
     <script>
